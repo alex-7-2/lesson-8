@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.custom-div-1 {
+    width: 150px;
+    height: 150px;
+    background-color: #ff0000;
+}
+
+.span-1 {
+    width: 25px;
+    height: 25px;
+    display: block;
+    background-color: #ffffff;
+
+}
+
+.custom-div-2 {
+    width: 30px;
+    height: 30px;
+    background-color: #00ff00;
+}
+
+.custom-div-3 {
+    width: 40px;
+    height: 40px;
+    background-color: #0000ff;
+}
+
+.custom-div-4 {
+    width: 20px;
+    height: 20px;
+    background-color: #ffff00;
+}
+
+.custom-div-5 {
+    width: 35px;
+    height: 35px;
+    background-color: #00ffff;
+}
+
+.card {
+    border: 1px solid #ccc;
+    max-width: 400px;
+    width: 100%;
+    position: relative;
+}
+
+.card-thumb {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 175px;
+    object-fit: cover;
+}
+
+.card-thumb img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.card-content {
+    padding: 10px 20px 20px 195px;
+}
+
+.card-content h3 {
+    margin: 0 0 10px;
+    font-size: 16px;
+}
+
+.card-content p {
+    margin: 0 0 15px;
+    font-size: 16px;
+    color: #aaaaaa
+}
+
+.card-link {
+    padding: 7px 15px;
+    border-radius: 5px;
+    background-color: #0000ff;
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.25s all ease-in-out;
+}
+
+.card-link:hover {
+    background-color: #00ffff;
+}
